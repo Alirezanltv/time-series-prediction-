@@ -13,7 +13,7 @@ def sig(x,derivative = False):
 
 rnd.seed()
 
-data = pd.read_excel('your excel directory')
+data = pd.read_excel('your excel_file directory')
 data = np.matrix(data)
 # if data is not normalized
 M = []
